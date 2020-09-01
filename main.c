@@ -3,12 +3,14 @@
 // Collaborator Joseph Imperial jri5073@psu.edu
 // Collaborator Mya Romano mlr5819@psu.edu
 #include <stdio.h>
+#include <readline/readline.h>
+#include <stdlib.h>
 int main()
 {
-  float celsius, fahrenheit;
-
-  printf("Enter your temperature in Celsius: ");
-  scanf("%f", &celsius);
+  char *temperature = readline("Enter temperature in celsius: ");
+  
+  double celsius = atof(temperature);
+  double fahrenheit
 
   fahrenheit = (celsius * 9/5) + 32;
 
