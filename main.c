@@ -14,7 +14,7 @@ int main(void) {
 
   f = (c * 9/5) + 32;
 
-  printf("%.6f° in Celsius is equivalent to %.6f° Fehrenheit.",c, f);
+  printf("%.6f° in Celsius is equivalent to %.6f° Fahrenheit.",c, f);
 
   return 0;
  }
