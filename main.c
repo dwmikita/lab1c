@@ -10,7 +10,7 @@ int main(void) {
   char *ctemp = readline("Enter temperature in celsius: ");
   
   double c = atof(ctemp);
-  double f = atof(ftemp);
+  double f = atof(ctemp);
 
   f = (c * 9/5) + 32;
 
